@@ -1,4 +1,4 @@
-name: HomeWork
+name: Dom_game
 
 on: [push, pull_request]
 
