@@ -53,6 +53,11 @@ body {
   border: #F2F3F5 solid;
 }
 
+img {
+  width: 16vmin;
+  height: 16vmin;
+}
+
 .control {
   display: flex;
   margin: auto;
