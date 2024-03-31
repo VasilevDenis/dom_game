@@ -44,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:120px;
+  height: 120px;
   width: 120px;
   font-weight: bold;
   font-size: 70px;
@@ -53,6 +53,12 @@ body {
   border: #F2F3F5 solid;
 }
 
+@media only screen and (max-width: 767px) {
+  .square {
+    height: 25vw;
+    width: 25vw;
+  }
+}
 .control {
   display: flex;
   margin: auto;
