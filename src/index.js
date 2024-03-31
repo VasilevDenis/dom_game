@@ -1,5 +1,5 @@
 import './style.css'
-import imgGoblinPath from './goblin.png'
+import imgGoblinPath from './gopher.png'
 
 class Game {
   constructor() {
