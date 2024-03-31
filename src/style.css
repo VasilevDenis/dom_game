@@ -1,9 +1,23 @@
+html {
+  cursor: url('./hammer.png') 30 90, auto;
+}
+
+.hammer-down {
+  cursor: url('./hammer_down.png') 30 90, auto;
+}
+
 body {
   background-color: #23272F;
   padding: 0;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
   color: #F2F3F5;
+}
+
+.game-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .game {
@@ -34,12 +48,40 @@ body {
   width: 120px;
   font-weight: bold;
   font-size: 70px;
-  background-color: #263538;
+  background-color: #342f3d;
   color: #F2F3F5;
   border: #F2F3F5 solid;
 }
 
+.control {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 30px;
+}
+
 h1 {
   color: white;
-  font-size: 35px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  color: white;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+#start {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: #342f3d;
+  font-size: 20px;
+  border-radius: 60px;
 }
