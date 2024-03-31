@@ -30,6 +30,7 @@ class Game {
     //coursor
     this.htmlElement =  document.querySelector("html");
     this.lastDeadGoblinSquare = null;
+    this.timeout = 1000;
   }
 
   startGame() {
@@ -55,7 +56,8 @@ class Game {
       } else {
         this.doIteration();
       }
-    }, 1000);
+    }, this.timeout);
+    this.timeout -= 3;
   }
 
   gameOver() {
